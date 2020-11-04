@@ -1,7 +1,7 @@
 from py3270 import Emulator
 import time
 
-# use x3270 so you can see what is going on
+# use x3270 with visible window
 em = Emulator(visible=True)
 
 em.connect('192.168.1.95')
