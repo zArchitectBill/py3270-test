@@ -4,7 +4,8 @@ import time
 # use x3270 with visible window
 em = Emulator(visible=True)
 
-em.connect('192.168.1.95')
+# changed to a differnt address
+em.connect('192.168.1.100')
 
 if em.is_connected() :
     em.wait_for_field()
